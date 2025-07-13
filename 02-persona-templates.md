@@ -1,3 +1,11 @@
+<!---
+title: Persona Simulation Templates
+description: Defines expert roles for perspective simulation and contradiction modeling in the Augmented Intelligence Toolkit
+tags: [augmented-intelligence, persona-simulation, worldview-simulation, prompt-engineering]
+version: 1.0
+author: Luis Alberto Martinez Riancho
+-->
+
 # 🧑‍🎓 Augmented Intelligence Toolkit — Persona Simulation Templates
 
 This module enables the simulation of expert roles, worldview lenses, and reasoning values. Each persona defines tone, analytic lens, ethical posture, sample prompts, and suggested tag or verification considerations.

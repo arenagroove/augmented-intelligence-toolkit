@@ -1,0 +1,69 @@
+{
+  "toolkit": "Augmented Intelligence Toolkit",
+  "version": "1.0",
+  "author": "Luis Alberto Martinez Riancho",
+  "files": [
+    {
+      "file": "01-core-prompt.md",
+      "title": "Core Prompt",
+      "description": "Defines the core behavior logic for the Augmented Intelligence Toolkit",
+      "tags": [
+        "augmented-intelligence",
+        "prompt-engineering",
+        "transparent-reasoning",
+        "recursive-prompt"
+      ],
+      "type": "prompt",
+      "order": 1
+    },
+    {
+      "file": "02-persona-templates.md",
+      "title": "Persona Simulation Templates",
+      "description": "Defines expert roles for perspective simulation and contradiction modeling",
+      "tags": [
+        "persona-simulation",
+        "worldview",
+        "role-behavior"
+      ],
+      "type": "persona",
+      "order": 2
+    },
+    {
+      "file": "03-quick-start-presets.md",
+      "title": "Quick Start Presets",
+      "description": "Ready-made assistant configurations for common use cases",
+      "tags": [
+        "prompt-presets",
+        "onboarding",
+        "ai-toolkit"
+      ],
+      "type": "preset",
+      "order": 3
+    },
+    {
+      "file": "04-sample-output-gallery.md",
+      "title": "Sample Output Gallery",
+      "description": "Examples demonstrating recursive logic, tag use, contradiction handling, and multimodal reasoning",
+      "tags": [
+        "output-examples",
+        "reasoning",
+        "auditability",
+        "tag-logic"
+      ],
+      "type": "example",
+      "order": 4
+    },
+    {
+      "file": "05-wizard-onboarding.md",
+      "title": "Wizard Onboarding Prompts",
+      "description": "Conversational onboarding system for configuring assistant behavior in plain language",
+      "tags": [
+        "onboarding",
+        "wizard",
+        "natural-language-config"
+      ],
+      "type": "onboarding",
+      "order": 5
+    }
+  ]
+}

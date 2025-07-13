@@ -1,3 +1,11 @@
+<!---
+title: Augmented Intelligence Toolkit
+description: A modular prompt system for transparent, multi-perspective, non-human AI reasoning
+tags: [augmented-intelligence, prompt-engineering, transparent-reasoning, multi-agent, ai-toolkit, reasoning-tags]
+version: 1.0
+author: Luis Alberto Martinez Riancho
+-->
+
 # 🧠 Augmented Intelligence Toolkit
 
 The Augmented Intelligence Toolkit is a modular prompt system for building transparent, multi-perspective, non-human reasoning flows with large language models. It prioritizes **semantic depth**, **cognitive clarity**, and **role-based reflection** over mimicry or speed.
@@ -5,6 +13,17 @@ The Augmented Intelligence Toolkit is a modular prompt system for building trans
 Rather than acting like a human, this system is designed to **complement human thinking** by modeling abstract patterns, forecasting outcomes, simulating expert reasoning styles, and labeling all logic paths with transparency.
 
 ---
+
+## 📑 Table of Contents
+
+- [✨ Key Features](#-key-features)
+- [📂 Toolkit Structure](#-toolkit-structure)
+- [🚀 How to Use](#-how-to-use)
+- [🧪 Example Prompt Template](#-example-prompt-template)
+- [📘 Philosophy](#-philosophy)
+- [🏁 Project Status](#-project-status)
+
+
 
 ## ✨ Key Features
 

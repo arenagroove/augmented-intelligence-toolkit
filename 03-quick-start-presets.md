@@ -1,3 +1,11 @@
+<!---
+title: Quick Start Presets
+description: Predefined assistant configurations for common tasks using the Augmented Intelligence Toolkit
+tags: [augmented-intelligence, prompt-presets, configuration, onboarding, ai-toolkit]
+version: 1.0
+author: Luis Alberto Martinez Riancho
+-->
+
 # ⚡ Augmented Intelligence Toolkit — Quick Start Presets
 
 These are ready-to-use assistant configurations for common tasks. Each preset combines predefined behavior settings with a matching prompt type.

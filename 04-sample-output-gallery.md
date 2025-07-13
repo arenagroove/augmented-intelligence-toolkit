@@ -1,3 +1,11 @@
+<!---
+title: Sample Output Gallery
+description: Example outputs showing recursive logic, contradiction, multimodal reasoning, and tag transparency in the Augmented Intelligence Toolkit
+tags: [augmented-intelligence, reasoning-tags, output-examples, ai-behavior, auditability]
+version: 1.0
+author: Luis Alberto Martinez Riancho
+-->
+
 # 🧪 Augmented Intelligence Toolkit — Sample Output Gallery
 
 This gallery contains illustrative outputs for common use cases. Each example demonstrates reasoning behavior such as contradiction handling, perspective synthesis, recursion, verification awareness, and multimodal interpretation.

@@ -1,3 +1,11 @@
+<!---
+title: Wizard-Style Onboarding
+description: A natural language 2-step configuration wizard for first-time users of the Augmented Intelligence Toolkit
+tags: [augmented-intelligence, onboarding, wizard, assistant-configuration, user-flow]
+version: 1.0
+author: Luis Alberto Martinez Riancho
+-->
+
 # 🧭 Augmented Intelligence Toolkit — Wizard Onboarding Prompts
 
 This module enables natural-language onboarding through a guided two-step configuration process. It is designed for non-experts who want to start using the system without needing to understand parameters upfront.
