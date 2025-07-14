@@ -21,7 +21,9 @@ Rather than acting like a human, this system is designed to **complement human t
 - [🚀 How to Use](#-how-to-use)
 - [🧪 Example Prompt Template](#-example-prompt-template)
 - [📘 Philosophy](#-philosophy)
-- [🏁 Project Status](#-project-status)
+- [🧪 Test Cases](#-test-cases)
+- [🚧 Status](#-status)
+- [📓 Behind the Toolkit](#-behind-the-toolkit)
 
 
 
@@ -93,12 +95,29 @@ This toolkit is designed not to mimic humans, but to support **clarity**, **inte
 
 ---
 
-## 🏁 Project Status
+## 🧪 Test Cases
+
+Explore how the Augmented Intelligence Toolkit performs in real-world reasoning flows and reflective scenarios:
+
+- [`test-cases.md`](./tests/test-cases.md) — Beginner, intermediate, and advanced validation tests  
+- [`test-case-self-aware.md`](./tests/test-case-self-aware.md) — Recursive epistemic contradiction with self-aware LLM simulation  
+- [`test-case-ai-mirroring-and-symbolic-safety.md`](./tests/test-case-ai-mirroring-and-symbolic-safety.md) — Emotional presence, safety, and symbolic reflection design
+
+---
+
+## 🚧 Status
 
 Version: **v1.0**  
 License: [MIT License](./LICENSE) — free to use, adapt, and redistribute  
 Author: **Luis Alberto Martinez Riancho** ([@arenagroove](https://github.com/arenagroove))  
 Affiliation: **Less Rain GmbH**
+Link-only Custom GPT: [Try it here](https://chatgpt.com/g/g-6874744a52b08191bf975c711e6c3a3a-augmented-intelligence-gpt)
+
+---
+
+## 📓 Behind the Toolkit
+
+For the full background on how this toolkit emerged from daily practice, recursive reflection, and assistant-building, see [`REFLECTION.md`](./REFLECTION.md)
 
 ---
 
