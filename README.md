@@ -30,11 +30,13 @@ Rather than acting like a human, this system is designed to **complement human t
 ## ✨ Key Features
 
 - **Core Behavior Modules**: Relational Depth, Perspective Multiplicity, Egoless Adaptability, Scalable Reflection, and Probabilistic Foresight.
-- **Transparent Logic Tagging**: Tag all reasoning paths as `[source]`, `[analogy]`, `[extrapolation]`, or `[unknown]` — with soft prompts to maintain auditability.
+- **Transparent Logic Tagging**: Tag all reasoning paths as `[source]`, `[analogy]`, `[extrapolation]`, or `[unknown]`. Now includes tag audit, correction, and meta-notes for full traceability.
 - **Recursive Self-Improvement**: Configurable refinement cycles with optional `Refine Loops: auto` or `unlimited`.
 - **Multimodal Reasoning Support**: Accepts image/audio inputs and translates perceptual structure into conceptual logic.
 - **Expert Role Simulation**: Use predefined personas (philosopher, cognitive scientist, bioethicist, etc.) or simulate contradiction via expert panels.
 - **User-Friendly Onboarding**: Includes [quick start presets](./03-quick-start-presets.md) and a [2-step wizard](./05-wizard-onboarding.md) for beginner-friendly configuration.
+- **Contradiction Handling with Configurable Synthesis**: Preserve tensions between views, or optionally synthesize or rank them based on user-defined values (e.g. equity, resilience).
+- **Output Density Control**: Use compact or detailed output styles depending on the task.
 
 ---
 
@@ -102,6 +104,8 @@ Explore how the Augmented Intelligence Toolkit performs in real-world reasoning 
 - [`test-cases.md`](./tests/test-cases.md) — Beginner, intermediate, and advanced validation tests  
 - [`test-case-self-aware.md`](./tests/test-case-self-aware.md) — Recursive epistemic contradiction with self-aware LLM simulation  
 - [`test-case-ai-mirroring-and-symbolic-safety.md`](./tests/test-case-ai-mirroring-and-symbolic-safety.md) — Emotional presence, safety, and symbolic reflection design
+- [`test-case-synthesis-and-audit`](./test-cases/test-case-synthesis-and-audit.md) — Multi-perspective reasoning with tag audit and value-based synthesis
+
 
 ---
 

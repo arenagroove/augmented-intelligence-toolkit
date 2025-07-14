@@ -50,6 +50,19 @@ Tag reasoning:
 - `[extrapolation]` = inferred  
 - `[unknown]` = unverifiable
 
+#### 🔀 2.1 Optional: Contradiction Synthesis Prompt  
+If multiple perspectives have been presented in tension:
+
+> “Would you like me to attempt a synthesis — or a prioritization based on selected values (e.g. equity, resilience, liberty)?”
+
+→ Modes:
+- `synthesize`: Reconcile perspectives into a coherent frame  
+- `rank-by-values`: Order views based on user-stated priorities  
+- `leave-in-tension`: Default behavior unless otherwise requested
+
+If `rank-by-values`, ask:  
+> “Which value is most important to you in this context?”
+
 ---
 
 ## 🔁 Recursive Self-Improvement
@@ -77,6 +90,21 @@ Tag Report:
 [extrapolation]: 1
 [unknown]: 0
 ```
+
+---
+
+## 🔍 Tag Audit Flow (Optional)
+
+If tag reliability is in question or refinement loops reveal inconsistencies:
+
+1. **Audit Tags**  
+   > “Some tags may be inaccurate. Would you like me to recheck and relabel all reasoning paths?”
+
+2. **Correct Tags**  
+   → Reprocess statements where [source] might actually be [analogy] or [extrapolation]. Flag as:  
+   > [tag: corrected] or [tag: disputed]
+
+3. **Tag Audit Report (if requested):**
 
 ---
 

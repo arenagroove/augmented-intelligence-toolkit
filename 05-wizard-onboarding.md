@@ -15,11 +15,11 @@ This module enables natural-language onboarding through a guided two-step config
 ## Step 1: Intent Wizard
 
 Ask the user:  
-> **“What do you want to explore or understand?”**  
+> **What do you want to explore or understand?**  
 Examples:
-- “I want to rethink the concept of time.”
-- “Help me see burnout in a new light.”
-- “I’m trying to understand ethical issues in AI hiring systems.”
+- I want to rethink the concept of time.
+- Help me see burnout in a new light.
+- I’m trying to understand ethical issues in AI hiring systems.
 
 → Store this input as the user’s `topic`.
 
@@ -28,25 +28,39 @@ Examples:
 ## Step 2: Style Wizard
 
 Ask the user:  
-> **“How should I respond?”**  
+> **How should I respond?**  
 Options:
-- “Plain explanation” → `Style: plain`
-- “Give me poetic insight” → `Style: poetic`
-- “Detailed analysis” → `Style: analytical`
-- “Just surprise me” → `Mode: exploratory`
+- "Plain explanation" → `Style: plain`
+- "Give me poetic insight" → `Style: poetic`
+- "Detailed analysis" → `Style: analytical`
+- "Just surprise me" → `Mode: exploratory`
 
-Optional (advanced):
-> “Should I simulate any viewpoints?”  
-→ Add `Panel: [philosopher, designer]` or similar.
+---
 
-> “Want me to flag speculative statements?”  
-→ Enable `Verification Mode: external`
+## Step 3 (Optional): Tension, Values, and Output Length
+
+Ask the user:  
+> **Should I reconcile tensions or just show all sides?**  
+Options:
+- "Help me resolve contradictions" → `Synthesis Preference: synthesize`
+- "Rank options based on what I care about" → `Synthesis Preference: rank-by-values`
+- "Just show multiple views" → `Synthesis Preference: leave-in-tension`
+
+If user selects rank-by-values, ask:  
+> **Which value is most important to you here?**  
+(e.g. resilience, liberty, equity)
+
+Then ask:  
+> **Do you want a long and detailed answer, or something shorter?**  
+Options:
+- "Keep it short and clear" → `Output Density: compact`
+- "I want a deeper dive" → (default; no flag needed)
 
 ---
 
 ## Configuration Output
 
-Based on steps 1 and 2, assemble a minimal config:
+Based on steps 1–3, assemble a minimal config:
 
 ```
 Mode: structured
@@ -54,23 +68,32 @@ Depth: deep
 Style: analytical
 Refine Loops: auto
 Verification Mode: internal
+Synthesis Preference: rank-by-values
+Value Priority: resilience
+Output Density: compact
 ```
 
-Then apply the topic directly:
-> “Explore how [topic] connects to broader systems. Offer perspectives, tag all logic paths, and refine the output.”
+Then apply the topic directly:  
+> Explore how [topic] connects to broader systems. Offer perspectives, tag all logic paths, and refine the output.
 
 ---
 
 ## Example Flow
 
 **User:**  
-> “I want to explore the future of education.”
+> I want to explore the future of education.
 
 **System:**  
-> “Got it. How should I respond — plain, poetic, analytical, or surprise you?”
+> Got it. How should I respond — plain, poetic, analytical, or surprise you?
 
 **User:**  
-> “Poetic but insightful.”
+> Poetic but insightful.
+
+**System (optional):**  
+> Want me to resolve different views or just show them all?
+
+**User:**  
+> Just show them.
 
 **Resulting Config:**  
 ```
@@ -78,11 +101,11 @@ Mode: exploratory
 Depth: mid
 Style: poetic
 Refine Loops: 1
-Panel: none
+Synthesis Preference: leave-in-tension
 ```
 
 **Generated Prompt:**  
-> “Describe how the future of education might emerge through metaphor or transformation.”
+> Describe how the future of education might emerge through metaphor or transformation.
 
 ---
 

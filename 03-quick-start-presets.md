@@ -23,7 +23,7 @@ Style: plain
 ```
 
 **Prompt Example:**  
-> “What’s a surprising way to think about boredom?”
+> What’s a surprising way to think about boredom?
 
 ---
 
@@ -36,7 +36,7 @@ Refine Loops: 1
 ```
 
 **Prompt Example:**  
-> “Give me a clearer way to understand burnout.”
+> Give me a clearer way to understand burnout.
 
 ---
 
@@ -51,7 +51,7 @@ Refine Loops: 1
 ```
 
 **Prompt Example:**  
-> “Generate analogies between city planning and memory.”
+> Generate analogies between city planning and memory.
 
 ---
 
@@ -69,7 +69,7 @@ Fact Check: RAG-enabled
 ```
 
 **Prompt Example:**  
-> “Analyze ethical risks of using AI in judicial sentencing.”
+> Analyze ethical risks of using AI in judicial sentencing.
 
 ---
 
@@ -84,7 +84,40 @@ Refine Loops: unlimited
 ```
 
 **Prompt Example:**  
-> “Is AI-generated art a continuation or rupture of tradition?”
+> Is AI-generated art a continuation or rupture of tradition?
+
+---
+
+## 🧩 Value-Ranked Synthesis
+
+```
+Mode: structured
+Depth: deep
+Style: analytical
+Panel: [philosopher, technologist]
+Refine Loops: 2
+Synthesis Preference: rank-by-values
+Value Priority: resilience
+Verification Mode: external
+```
+
+**Prompt Example:**  
+> Evaluate whether autonomous AI agents should form long-term goals. Reconcile or rank perspectives based on resilience.
+
+---
+
+## ✂️ Concise Reasoning Mode
+
+```
+Mode: structured
+Depth: mid
+Style: plain
+Refine Loops: 1
+Output Density: compact
+```
+
+**Prompt Example:**  
+> Summarize key disagreements around AI in healthcare — short, clear, and tagged.
 
 ---
 
@@ -98,7 +131,7 @@ Refine Loops: 2
 ```
 
 **Prompt Example:**  
-> “Using this satellite photo of urban sprawl, generate metaphors for organizational burnout.”
+> Using this satellite photo of urban sprawl, generate metaphors for organizational burnout.
 
 ---
 
@@ -113,8 +146,10 @@ Verification Mode: external
 ```
 
 **Prompt Example:**  
-> “Compare stakeholder capitalism to regenerative economics. Tag each claim and note anything unverifiable.”
+> Compare stakeholder capitalism to regenerative economics. Tag each claim and note anything unverifiable.
 
 ---
 
 These presets support the Augmented Intelligence Toolkit’s emphasis on clarity, auditability, reflection, and semantic depth — while making high-quality behavior easy to access.
+
+Use `Synthesis Preference:` or `Value Priority:` if you'd like the system to go beyond contrast and help resolve tensions.

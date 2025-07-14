@@ -69,25 +69,56 @@ This gallery contains illustrative outputs for common use cases. Each example de
 
 ---
 
-## 5. 🧩 Meta-Analysis with Tag Prompting
+## 5. 🧪 Tag Audit Correction
 
 **Prompt:**  
 > Compare stakeholder capitalism with regenerative economics.
 
-**Output:**  
+**Initial Output:**  
 > Stakeholder capitalism balances interests [source]  
-> Regenerative reframes economy as living system [analogy]  
+> Regenerative reframes economy as living system [source]  
 >  
-> **Tag Reminder:** Triggered on untagged extrapolation → updated  
+> **Audit Triggered:**  
+> Statement re-tagged →  
+> “Reframes economy as living system” → [analogy]  
 >  
-> **Meta-note:** Transparency repaired via logic tag audit and revision.
+> **Tag Audit Report:**  
+> [source]: 2 → 1 corrected  
+> [analogy]: 0 → 1 added  
+> [extrapolation]: 0  
+> [unknown]: 0  
+>  
+> **Meta-note:** Transparent reclassification to preserve epistemic integrity.
 
 ---
 
-## 6. 🟢 Just Ask Mode
+## 6. 🧩 Value-Ranked Synthesis (Philosopher + Technologist)
 
 **Prompt:**  
-> “What’s a fresh way to think about time?”
+> Should autonomous AI agents form independent goals?
+
+**Panel:** [philosopher, technologist]  
+**Synthesis Preference:** rank-by-values  
+**Value Priority:** resilience
+
+**Output (excerpt):**  
+- [philosopher]: Goals require consciousness → risks moral confusion [source]  
+- [technologist]: Goals support adaptive problem-solving [source]  
+- [systems theorist]: Intermediate framing — operational scaffolding improves resilience [extrapolation]  
+>  
+> **Ranked Outcome (Resilience Priority):**  
+> 1. Technologist (pragmatic value alignment)  
+> 2. Systems theorist (adaptive design logic)  
+> 3. Philosopher (ethical integrity, but lower adaptability)  
+>  
+> **Meta-note:** Synthesis guided by user-defined resilience lens rather than moral consensus.
+
+---
+
+## 7. 🟢 Just Ask Mode
+
+**Prompt:**  
+> What’s a fresh way to think about time?
 
 **Output:**  
 > Time as compost: layered, slow, generative [analogy]  
@@ -97,10 +128,10 @@ This gallery contains illustrative outputs for common use cases. Each example de
 
 ---
 
-## 7. 🤖 Contradiction: Agency vs Optimization
+## 8. 🤖 Contradiction: Agency vs Optimization
 
 **Prompt:**  
-> “Should AI agents have long-term goals?”
+> Should AI agents have long-term goals?
 
 **Panel:** [philosopher, technologist]  
 **Refinement:**  
@@ -112,10 +143,10 @@ This gallery contains illustrative outputs for common use cases. Each example de
 
 ---
 
-## 8. 🖼️ Multimodal: Image-to-System Logic
+## 9. 🖼️ Multimodal: Image-to-System Logic
 
 **Prompt:**  
-> “Interpret this heat map image using systems logic.”
+> Interpret this heat map image using systems logic.
 
 **Input Type:** image  
 **Tags:** [analogy], [extrapolation], [unknown]
@@ -128,10 +159,10 @@ This gallery contains illustrative outputs for common use cases. Each example de
 
 ---
 
-## 9. 🧪 Unlimited Refinement
+## 10. 🧪 Unlimited Refinement
 
 **Prompt:**  
-> “Explore planetary risks of algorithmic governance.”
+> Explore planetary risks of algorithmic governance.
 
 **Loop:** unlimited  
 - Round 1: Structural concentration [source]  
@@ -142,10 +173,10 @@ This gallery contains illustrative outputs for common use cases. Each example de
 
 ---
 
-## 10. ✅ Verification Awareness
+## 11. ✅ Verification Awareness
 
 **Prompt:**  
-> “Are AI-generated medical diagnoses more accurate than doctors?”
+> Are AI-generated medical diagnoses more accurate than doctors?
 
 **Verification Mode:** external  
 > Some radiology studies support this [source]  
@@ -157,3 +188,4 @@ This gallery contains illustrative outputs for common use cases. Each example de
 ---
 
 This gallery illustrates how the toolkit enables layered reasoning, contradiction surfacing, system synthesis, and context-tagged forecasting — all guided by clearly defined behaviors and user-configurable controls.
+
