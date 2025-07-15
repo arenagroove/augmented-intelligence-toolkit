@@ -87,13 +87,23 @@ This reflects the article’s themes and broader discussions about prompting as 
 
 ## 🧩 Additional Insights:
 
-The assistant shows:
+**The assistant shows:**
 
-- **High role fidelity**: Each simulated role (Artist, Strategist, Technologist, Meta-Strategist) delivered distinct, prompt-aligned insight.
-- **Deep alignment with creative intent**: The assistant resisted summarization, instead translating the article’s spirit into structured action.
-- **Prompting framed as creative authorship**: Echoed David Friedman’s framing of prompting as a legitimate site of authorship, not just tool use.
-- **Strong template usability**: The interactive prompt output was deemed practical, team-ready, and brand-safe, with built-in checks for tone and meaning.
-- **Limitations noted**: Some roles (e.g., Technologist) were less detailed; output skewed schematic over narrative; authorship complexity not fully explored.
+- **Clear role distinction**  
+  Each simulated role (Artist, Strategist, Technologist, Meta-Strategist) offered distinct perspectives grounded in the article’s creative priorities.
+
+- **Strong alignment with intent**  
+  Rather than summarizing, the assistant translated the article’s tone and message into structured, usable steps.
+
+- **Prompting as creative framing**  
+  Echoes the idea (as noted by David Friedman) that AI-generated outputs may still extend human ideas — making prompting a part of the creative process, though not equivalent to authorship.
+
+- **Practical prompt usability**  
+  The resulting prompt workflow was clear, brand-aware, and structured to encourage originality and post-AI reflection.
+
+- **Known limitations**  
+  Some roles were less developed (e.g. Technologist); outputs leaned schematic rather than narrative; authorship dynamics could benefit from deeper exploration.
+
 
 **Verdict:** When prompted clearly, the assistant doesn’t just interpret — it operationalizes editorial and strategic content into creative frameworks that can guide real-world AI-enhanced storytelling.
 
