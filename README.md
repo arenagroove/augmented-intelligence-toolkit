@@ -125,11 +125,11 @@ Link-only Custom GPT: [Try it here](https://chatgpt.com/g/g-6874744a52b08191bf97
 
 The Augmented Intelligence Toolkit isn’t just a reasoning framework — it’s a model for how AI can be used **ethically, transparently, and creatively**. Based on external reviews and validation, here’s what sets it apart:
 
-- **Makes Complex Reasoning Understandable:** Organizes abstract ideas into visible, traceable steps with reasoning tags and simulated roles:contentReference[oaicite:0]{index=0}
-- **Fosters Safe Exploration:** Surfaces tension and contradiction without risk — ideal for complex or emotionally charged topics:contentReference[oaicite:1]{index=1}
-- **Centers Transparency and Adaptation:** Shows how every thought evolves, allowing users to revise, audit, or redirect the conversation:contentReference[oaicite:2]{index=2}
-- **Supports Pattern Discovery and Forecasting:** Helps spot meaning across noise and imagine alternative futures:contentReference[oaicite:3]{index=3}
-- **Built to Augment, Not Replace:** Respects the human role — offering structure, not control; dialogue, not automation:contentReference[oaicite:4]{index=4}
+- **Makes Complex Reasoning Understandable:** Organizes abstract ideas into visible, traceable steps with reasoning tags and simulated roles
+- **Fosters Safe Exploration:** Surfaces tension and contradiction without risk — ideal for complex or emotionally charged topics
+- **Centers Transparency and Adaptation:** Shows how every thought evolves, allowing users to revise, audit, or redirect the conversation
+- **Supports Pattern Discovery and Forecasting:** Helps spot meaning across noise and imagine alternative futures:contentReference
+- **Built to Augment, Not Replace:** Respects the human role — offering structure, not control; dialogue, not automation
 
 Whether used for creative thinking, ethical reflection, or complex problem exploration, the Toolkit creates **epistemic space for thought to emerge, mutate, and clarify — with the user always in control.**
 
