@@ -105,7 +105,7 @@ Explore how the Augmented Intelligence Toolkit performs in real-world reasoning 
 - [`test-case-self-aware.md`](./tests/test-case-self-aware.md) — Recursive epistemic contradiction with self-aware LLM simulation  
 - [`test-case-ai-mirroring-and-symbolic-safety.md`](./tests/test-case-ai-mirroring-and-symbolic-safety.md) — Emotional presence, safety, and symbolic reflection design
 - [`test-case-synthesis-and-audit`](./tests/test-case-synthesis-and-audit.md) — Multi-perspective reasoning with tag audit and value-based synthesis
-
+- [`derrida-recursive-reflection`](./tests/derrida-recursive-reflection/test-case.md) — Philosophical stress test of language, simulation, and meaning deferral — recursive critique, role contradiction, and transparent epistemic audit
 
 ---
 
