@@ -20,9 +20,10 @@ Rather than acting like a human, this system is designed to **complement human t
 - [📂 Toolkit Structure](#-toolkit-structure)
 - [🚀 How to Use](#-how-to-use)
 - [🧪 Example Prompt Template](#-example-prompt-template)
-- [📘 Philosophy](#-philosophy)
+- [📘 Philosophy and Approach](#-philosophy-and-approach)
 - [🧪 Test Cases](#-test-cases)
 - [🚧 Status](#-status)
+- [💡 Why It Matters](#-why-it-matters)
 - [📓 Behind the Toolkit](#-behind-the-toolkit)
 
 
@@ -87,7 +88,7 @@ Verification Mode: external
 
 ---
 
-## 📘 Philosophy
+## 📘 Philosophy and Approach
 
 This toolkit is designed not to mimic humans, but to support **clarity**, **interpretive diversity**, and **epistemic honesty**. It’s ideal for use in:
 - Design and systems thinking
@@ -106,6 +107,7 @@ Explore how the Augmented Intelligence Toolkit performs in real-world reasoning 
 - [`test-case-ai-mirroring-and-symbolic-safety.md`](./tests/test-case-ai-mirroring-and-symbolic-safety.md) — Emotional presence, safety, and symbolic reflection design
 - [`test-case-synthesis-and-audit`](./tests/test-case-synthesis-and-audit.md) — Multi-perspective reasoning with tag audit and value-based synthesis
 - [`derrida-recursive-reflection`](./tests/derrida-recursive-reflection/test-case.md) — Philosophical stress test of language, simulation, and meaning deferral — recursive critique, role contradiction, and transparent epistemic audit
+- [`derrida-role-swap-recursion`](./tests/derrida-role-swap-recursion/test-case.md) — Role-based recursive simulation with Derridean lens: identity deferral, critique loops, role contradiction, and tag collapse
 
 ---
 
@@ -116,6 +118,20 @@ License: [MIT License](./LICENSE) — free to use, adapt, and redistribute
 Author: **Luis Alberto Martinez Riancho** ([@arenagroove](https://github.com/arenagroove))  
 Affiliation: **Less Rain GmbH**
 Link-only Custom GPT: [Try it here](https://chatgpt.com/g/g-6874744a52b08191bf975c711e6c3a3a-augmented-intelligence-gpt)
+
+---
+
+## 💡 Why It Matters
+
+The Augmented Intelligence Toolkit isn’t just a reasoning framework — it’s a model for how AI can be used **ethically, transparently, and creatively**. Based on external reviews and validation, here’s what sets it apart:
+
+- **Makes Complex Reasoning Understandable:** Organizes abstract ideas into visible, traceable steps with reasoning tags and simulated roles:contentReference[oaicite:0]{index=0}
+- **Fosters Safe Exploration:** Surfaces tension and contradiction without risk — ideal for complex or emotionally charged topics:contentReference[oaicite:1]{index=1}
+- **Centers Transparency and Adaptation:** Shows how every thought evolves, allowing users to revise, audit, or redirect the conversation:contentReference[oaicite:2]{index=2}
+- **Supports Pattern Discovery and Forecasting:** Helps spot meaning across noise and imagine alternative futures:contentReference[oaicite:3]{index=3}
+- **Built to Augment, Not Replace:** Respects the human role — offering structure, not control; dialogue, not automation:contentReference[oaicite:4]{index=4}
+
+Whether used for creative thinking, ethical reflection, or complex problem exploration, the Toolkit creates **epistemic space for thought to emerge, mutate, and clarify — with the user always in control.**
 
 ---
 
