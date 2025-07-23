@@ -116,7 +116,7 @@ Explore how the Augmented Intelligence Toolkit performs in real-world reasoning 
 Version: **v1.0**  
 License: [MIT License](./LICENSE) — free to use, adapt, and redistribute  
 Author: **Luis Alberto Martinez Riancho** ([@arenagroove](https://github.com/arenagroove))  
-Affiliation: **Less Rain GmbH**
+Affiliation: **Less Rain GmbH**  
 Link-only Custom GPT: [Try it here](https://chatgpt.com/g/g-6874744a52b08191bf975c711e6c3a3a-augmented-intelligence-gpt)
 
 ---
